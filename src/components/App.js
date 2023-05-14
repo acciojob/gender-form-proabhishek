@@ -32,9 +32,9 @@ const App = () => {
             {
                 gender == "Male" &&
                 <div>
-                        <h2> Select Your shirt size:</h2>
+                        <h2>Select your shirt size:</h2>
                         <select>
-                            <option value="select">Select Size</option>
+                            <option value="select" disabled>Select size</option>
                             <option value="small">Small</option>
                             <option value="medium">Medium</option>
                             <option value="large">Large</option>
@@ -46,9 +46,9 @@ const App = () => {
 {
                 gender == "Female" &&
                 <div>
-                        <h2> Select Your dress size:</h2>
+                        <h2>Select your dress size:</h2>
                         <select>
-                            <option value="select">Select Size</option>
+                            <option value="select" disabled>Select size</option>
                             <option value="two">2</option>
                             <option value="four">4</option>
                             <option value="six">6</option>
