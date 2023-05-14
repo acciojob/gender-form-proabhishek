@@ -10,7 +10,7 @@ const App = () => {
 
   return (
     <div>
-           <h2>Select Your Gender</h2>
+           <h2>Select Your gender:</h2>
 
             <input 
               type="radio"
@@ -32,8 +32,9 @@ const App = () => {
             {
                 gender == "Male" &&
                 <div>
-                        <h1> Select Your shirt size</h1>
+                        <h2> Select Your shirt size:</h2>
                         <select>
+                            <option value="select">Select Size</option>
                             <option value="small">Small</option>
                             <option value="medium">Medium</option>
                             <option value="large">Large</option>
@@ -45,7 +46,7 @@ const App = () => {
 {
                 gender == "Female" &&
                 <div>
-                        <h1> Select Your dress size</h1>
+                        <h2> Select Your dress size:</h2>
                         <select>
                             <option value="select">Select Size</option>
                             <option value="two">2</option>
