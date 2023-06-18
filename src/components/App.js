@@ -22,7 +22,7 @@ const App = () => {
             <label forHTML="female">Female</label>
 
             {
-              gender==male &&(
+              gender=="male" &&(
                 <div>
                      <h2>Select your shirt size:</h2>
                      <select name="male-size" id="male-size">
@@ -38,7 +38,7 @@ const App = () => {
             }
 
             {
-              gender==female &&(
+              gender=="female" &&(
                 <div>
                      <h2>Select your dress size:</h2>
                      <select name="femlae-size" id="female-size">
